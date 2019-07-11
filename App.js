@@ -8,7 +8,7 @@
 
 import React from 'react';
 import { Text, View, StyleSheet } from 'react-native';
-import AppNavigator from './Src/Routes/AppNavigator';
+import AppNavigator from './Src/Navigation/AppNavigator';
 
 const App = () => {
   return (<AppNavigator />);

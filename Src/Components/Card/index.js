@@ -16,9 +16,10 @@ const Card = (props) => {
             />
             <View style={styles.data}>
                 <Text style={styles.text}>Title: {props.show.name}</Text>
+                <Text style={styles.text}>Premiered: {(props.show.premiered) ? props.show.premiered.split('-')[0] : "Year wansn't provided"}</Text>
                 <Text style={styles.text}>Rating: {(props.show.rating.average) ? props.show.rating.average : "No Rating"}</Text>
             </View>
-        </View>
+        </View >
     );
 }
 
@@ -37,7 +38,9 @@ const styles = StyleSheet.create({
     movie: {
         flex: 1,
         flexDirection: 'row',
-        marginBottom: 3
+        marginBottom: 3,
+        borderBottomColor: '#c8cbcf',
+        borderBottomWidth: 2
     },
     data: {
         flex: 1,
