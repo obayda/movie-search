@@ -9,17 +9,10 @@
 **2. Install dependencies**
 
 ```
-$ npm i or yarn install
+$ npm install or yarn install
 ```
 
-**3. Install dependencies in the client folder**
-
-```
-$ cd client
-$ npm i or yarn install
-```
-
-**4. Run the app**
+**3. Run the app**
 
 `$ react-native run-platform`
 
